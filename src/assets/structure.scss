@@ -1,10 +1,49 @@
-body {
-  background-color: pink;
+
+html, * {
+  box-sizing: border-box;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 
-div{
-  background-color: #c0ffee;
-  padding:30px;
-  margin:300px;
-  text-align: center;
+html {
+  font-size: 15px;
+}
+
+body {
+  font-size: 100%;
+  background-color: #b376c3;
+}
+
+h1 {
+  letter-spacing: 3px;
+  font-family: $font-special;
+}
+/* fin des resets */
+
+.wrapper {
+  height: 100vh;
+  @include flex_column();
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  background-color: #362d64;
+  width: 40vw;
+  height: 30vh;
+  border-radius: 6px;
+  padding: $space $gutter;
+  margin: $space*3 $gutter;
+  h1, p {
+    text-align: center;
+  }
+  h1 {
+    margin-bottom: 2vh;
+    color: #ffff00;
+  }
+  p{
+    line-height:1.6;
+    color: #fff;
+    font-family: $font-main;
+  }
 }
