@@ -19,11 +19,10 @@ __il suffit de faire ceci la première fois, il n'y a pas besoin de le refaire l
 
 ## Lancement du serveur de dév
 ```bash
+cd documents/web/learn-sass
 npm run serve
 ```
-Cela va lancer un serveur de développement sur votre machine. Vous devriez voir quelque chose de similaire
-
-![Image](doc/done.png)
+Cela va lancer un serveur de développement sur votre machine.
 
 Vous pouvez maintenant lancer l'url `http://localhost:8080` (ou similaire) et votre page va s'afficher.
 
